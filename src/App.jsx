@@ -1,4 +1,3 @@
-// App.js
 import './App.css';
 import CSVUploader from './Components/CSVUploader';
 

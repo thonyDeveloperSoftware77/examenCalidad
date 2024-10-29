@@ -102,7 +102,6 @@ const CSVUploader = () => {
             <button onClick={searchById}>Buscar</button>
           </div>
 
-          {/* Listar por Ciudad */}
           <div>
             <h3>Listar por Ciudad</h3>
             <input
@@ -114,13 +113,11 @@ const CSVUploader = () => {
             <button onClick={listarPorCiudad}>Listar</button>
           </div>
 
-          {/* Listar por Edad Ascendente en la tabla principal */}
           <div>
             <h3>Ordenar Clientes por Edad Ascendente</h3>
             <button onClick={listarPorEdadAscendente}>Ordenar por Edad</button>
           </div>
 
-          {/* Botón para reiniciar la tabla */}
           <div>
             <button onClick={resetTable}>Reiniciar Tabla</button>
           </div>
